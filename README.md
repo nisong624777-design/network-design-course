@@ -9,41 +9,29 @@ Song Ni  song_ni@student.uml.edu
 ## Demo Video (Phase 1)
 - **video is available in folder "video"** 
 - **Timestamped outline:**
-  - 00:00 → Phase 1(a): UDP Message Echo Demonstration
-  - 01:15 → Phase 1(b): RDT 1.0 BMP File Transfer
-  - 02:00 → Verification: MD5 Hash Integrity Check
-
+  - 00:00 → show the sample1.bmp that I prepare to send
+  - 00:30 → finished Phase 1(a) and 1(b), show result.
+  - 00:50 → Verification: MD5 Hash Integrity Check
 ---
 
-## Repository Structure (Required)
-The project is organized as follows to ensure reproducibility:
+## The project is organized as follows to ensure reproducibility:
 ---
-
 ## Requirements
 - **Language/runtime:** Python 3.10 
 - **OS tested:** Ubuntu (WSL2) / Linux
 - **Dependencies:** - Only Python standard libraries are used: `socket`, `argparse`, `struct`, `time`. 
   - No external `pip` installations are required for Phase 1.
-
-- built virtual environment :uv venv network_env
-- activate environment: source network_env/bin/activate
-
----
-## Standard CLI Interface 
-Both programs support standardized flags to ensure consistent grading and testing. 
+- **built virtual environment** :uv venv network_env
+- **activate environment**: source network_env/bin/activate
 
 ### Receiver 
 - `--port <int>`: UDP port to bind (e.g., 9000).
 - `--out <path>`: Output file path to write received bytes.
-- `--seed <int>`: RNG seed (default: 0).
-- `--log-level <debug|info|warning|error>` (default: info).
 
 ### Sender
 - `--host <ip/hostname>`: Receiver host IP (use 127.0.0.1 for local tests).
 - `--port <int>`: Receiver port.
 - `--file <path>`: Input file to send.
-- `--seed <int>`: RNG seed (default: 0).
-- `--log-level <debug|info|warning|error>` (default: info).
 ---
 ## Quick Start 
 
@@ -51,7 +39,6 @@ Both programs support standardized flags to ensure consistent grading and testin
 Open a terminal and run the receiver first and waiting, then open another terminal to send files.
 ```bash
 python src/receiver.py --port 9000 --out results/received.bmp
-
 python src/sender.py --host 127.0.0.1 --port 9000 --file data/sample.bmp
 
 ### 2. Verification 
