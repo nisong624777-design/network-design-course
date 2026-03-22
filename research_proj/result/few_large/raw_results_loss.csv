@@ -1,0 +1,321 @@
+protocol,rtt_ms,loss_pct,jitter_ms,object_mix,run_id,num_objects,bytes_total,completion_time_ms,throughput_mbps,negotiated_protocols,success,qdisc_snapshot
+h2,50,0,0,few_large,1,10,10485760,758.161116973497,110.64413370981727,HTTP/2,True,qdisc netem 8120: root refcnt 25 limit 1000 delay 50ms
+h2,50,0,0,few_large,2,10,10485760,780.0321760005318,107.54182017222686,HTTP/2,True,qdisc netem 8120: root refcnt 25 limit 1000 delay 50ms
+h2,50,0,0,few_large,3,10,10485760,726.3575220131315,115.48869180497516,HTTP/2,True,qdisc netem 8120: root refcnt 25 limit 1000 delay 50ms
+h2,50,0,0,few_large,4,10,10485760,775.1239300123416,108.22279735146915,HTTP/2,True,qdisc netem 8120: root refcnt 25 limit 1000 delay 50ms
+h2,50,0,0,few_large,5,10,10485760,783.1869480432943,107.10862867362648,HTTP/2,True,qdisc netem 8120: root refcnt 25 limit 1000 delay 50ms
+h2,50,0,0,few_large,6,10,10485760,728.263059980236,115.18650966901514,HTTP/2,True,qdisc netem 8120: root refcnt 25 limit 1000 delay 50ms
+h2,50,0,0,few_large,7,10,10485760,720.652598014567,116.40293843539902,HTTP/2,True,qdisc netem 8120: root refcnt 25 limit 1000 delay 50ms
+h2,50,0,0,few_large,8,10,10485760,834.4692360260524,100.5262703266164,HTTP/2,True,qdisc netem 8120: root refcnt 25 limit 1000 delay 50ms
+h2,50,0,0,few_large,9,10,10485760,718.1296600028872,116.81188603136478,HTTP/2,True,qdisc netem 8120: root refcnt 25 limit 1000 delay 50ms
+h2,50,0,0,few_large,10,10,10485760,786.0117339878343,106.72369937075058,HTTP/2,True,qdisc netem 8120: root refcnt 25 limit 1000 delay 50ms
+h2,50,0,0,few_large,11,10,10485760,782.8808160265908,107.1505116522753,HTTP/2,True,qdisc netem 8120: root refcnt 25 limit 1000 delay 50ms
+h2,50,0,0,few_large,12,10,10485760,726.4094129786827,115.4804418847223,HTTP/2,True,qdisc netem 8120: root refcnt 25 limit 1000 delay 50ms
+h2,50,0,0,few_large,13,10,10485760,731.0436670086347,114.7483847897272,HTTP/2,True,qdisc netem 8120: root refcnt 25 limit 1000 delay 50ms
+h2,50,0,0,few_large,14,10,10485760,733.8955890154466,114.30247198043102,HTTP/2,True,qdisc netem 8120: root refcnt 25 limit 1000 delay 50ms
+h2,50,0,0,few_large,15,10,10485760,756.1268249992281,110.9418119110979,HTTP/2,True,qdisc netem 8120: root refcnt 25 limit 1000 delay 50ms
+h2,50,0,0,few_large,16,10,10485760,719.5155509980395,116.58688944754797,HTTP/2,True,qdisc netem 8120: root refcnt 25 limit 1000 delay 50ms
+h2,50,0,0,few_large,17,10,10485760,763.5674870107323,109.86072799983029,HTTP/2,True,qdisc netem 8120: root refcnt 25 limit 1000 delay 50ms
+h2,50,0,0,few_large,18,10,10485760,722.5348829524592,116.09969563991208,HTTP/2,True,qdisc netem 8120: root refcnt 25 limit 1000 delay 50ms
+h2,50,0,0,few_large,19,10,10485760,759.8299370147288,110.40112519069373,HTTP/2,True,qdisc netem 8120: root refcnt 25 limit 1000 delay 50ms
+h2,50,0,0,few_large,20,10,10485760,773.3154890011065,108.47588234441788,HTTP/2,True,qdisc netem 8120: root refcnt 25 limit 1000 delay 50ms
+h2,50,0,0,few_large,21,10,10485760,755.3011510171928,111.06309038060837,HTTP/2,True,qdisc netem 8120: root refcnt 25 limit 1000 delay 50ms
+h2,50,0,0,few_large,22,10,10485760,765.1801740285009,109.62918649389297,HTTP/2,True,qdisc netem 8120: root refcnt 25 limit 1000 delay 50ms
+h2,50,0,0,few_large,23,10,10485760,819.5092790410854,102.36135470992568,HTTP/2,True,qdisc netem 8120: root refcnt 25 limit 1000 delay 50ms
+h2,50,0,0,few_large,24,10,10485760,768.8132080365904,109.11113274735466,HTTP/2,True,qdisc netem 8120: root refcnt 25 limit 1000 delay 50ms
+h2,50,0,0,few_large,25,10,10485760,730.8446179958992,114.77963705887302,HTTP/2,True,qdisc netem 8120: root refcnt 25 limit 1000 delay 50ms
+h2,50,0,0,few_large,26,10,10485760,739.8158259456977,113.3877879575899,HTTP/2,True,qdisc netem 8120: root refcnt 25 limit 1000 delay 50ms
+h2,50,0,0,few_large,27,10,10485760,748.6125489813276,112.05540184191109,HTTP/2,True,qdisc netem 8120: root refcnt 25 limit 1000 delay 50ms
+h2,50,0,0,few_large,28,10,10485760,730.40556703927,114.84863175404837,HTTP/2,True,qdisc netem 8120: root refcnt 25 limit 1000 delay 50ms
+h2,50,0,0,few_large,29,10,10485760,815.281325019896,102.89218877661997,HTTP/2,True,qdisc netem 8120: root refcnt 25 limit 1000 delay 50ms
+h2,50,0,0,few_large,30,10,10485760,762.2552899993025,110.04984957215157,HTTP/2,True,qdisc netem 8120: root refcnt 25 limit 1000 delay 50ms
+h2,50,0,0,few_large,31,10,10485760,767.4082900048234,109.31088586425456,HTTP/2,True,qdisc netem 8120: root refcnt 25 limit 1000 delay 50ms
+h2,50,0,0,few_large,32,10,10485760,778.3301269519143,107.77699217234918,HTTP/2,True,qdisc netem 8120: root refcnt 25 limit 1000 delay 50ms
+h2,50,0,0,few_large,33,10,10485760,715.9720860072412,117.16389736338353,HTTP/2,True,qdisc netem 8120: root refcnt 25 limit 1000 delay 50ms
+h2,50,0,0,few_large,34,10,10485760,784.2784529784694,106.9595622338268,HTTP/2,True,qdisc netem 8120: root refcnt 25 limit 1000 delay 50ms
+h2,50,0,0,few_large,35,10,10485760,769.4277639966458,109.02398369961303,HTTP/2,True,qdisc netem 8120: root refcnt 25 limit 1000 delay 50ms
+h2,50,0,0,few_large,36,10,10485760,720.777569047641,116.38275607111105,HTTP/2,True,qdisc netem 8120: root refcnt 25 limit 1000 delay 50ms
+h2,50,0,0,few_large,37,10,10485760,722.5777599960566,116.09280639976771,HTTP/2,True,qdisc netem 8120: root refcnt 25 limit 1000 delay 50ms
+h2,50,0,0,few_large,38,10,10485760,768.4088409878314,109.16855133025264,HTTP/2,True,qdisc netem 8120: root refcnt 25 limit 1000 delay 50ms
+h2,50,0,0,few_large,39,10,10485760,777.5770319858566,107.88137579856631,HTTP/2,True,qdisc netem 8120: root refcnt 25 limit 1000 delay 50ms
+h2,50,0,0,few_large,40,10,10485760,765.2877270011231,109.61377928889338,HTTP/2,True,qdisc netem 8120: root refcnt 25 limit 1000 delay 50ms
+h2,50,1,0,few_large,1,10,10485760,722.1759040257894,116.15740643294072,HTTP/2,True,qdisc netem 8121: root refcnt 25 limit 1000 delay 50ms loss 1%
+h2,50,1,0,few_large,2,10,10485760,730.6775040342472,114.80588842114977,HTTP/2,True,qdisc netem 8121: root refcnt 25 limit 1000 delay 50ms loss 1%
+h2,50,1,0,few_large,3,10,10485760,730.4585709935054,114.84029804168846,HTTP/2,True,qdisc netem 8121: root refcnt 25 limit 1000 delay 50ms loss 1%
+h2,50,1,0,few_large,4,10,10485760,732.5385779840872,114.5142147064127,HTTP/2,True,qdisc netem 8121: root refcnt 25 limit 1000 delay 50ms loss 1%
+h2,50,1,0,few_large,5,10,10485760,723.8322939956561,115.89159629357934,HTTP/2,True,qdisc netem 8121: root refcnt 25 limit 1000 delay 50ms loss 1%
+h2,50,1,0,few_large,6,10,10485760,736.3065420067869,113.92820138657248,HTTP/2,True,qdisc netem 8121: root refcnt 25 limit 1000 delay 50ms loss 1%
+h2,50,1,0,few_large,7,10,10485760,734.8000470083207,114.16177821644872,HTTP/2,True,qdisc netem 8121: root refcnt 25 limit 1000 delay 50ms loss 1%
+h2,50,1,0,few_large,8,10,10485760,767.3803499783389,109.3148658320061,HTTP/2,True,qdisc netem 8121: root refcnt 25 limit 1000 delay 50ms loss 1%
+h2,50,1,0,few_large,9,10,10485760,764.8476799950004,109.67684441501915,HTTP/2,True,qdisc netem 8121: root refcnt 25 limit 1000 delay 50ms loss 1%
+h2,50,1,0,few_large,10,10,10485760,712.5244829803705,117.73080364778286,HTTP/2,True,qdisc netem 8121: root refcnt 25 limit 1000 delay 50ms loss 1%
+h2,50,1,0,few_large,11,10,10485760,734.8138670204207,114.15963111875892,HTTP/2,True,qdisc netem 8121: root refcnt 25 limit 1000 delay 50ms loss 1%
+h2,50,1,0,few_large,12,10,10485760,752.539346984122,111.47068965387925,HTTP/2,True,qdisc netem 8121: root refcnt 25 limit 1000 delay 50ms loss 1%
+h2,50,1,0,few_large,13,10,10485760,715.3668719693087,117.26302025850445,HTTP/2,True,qdisc netem 8121: root refcnt 25 limit 1000 delay 50ms loss 1%
+h2,50,1,0,few_large,14,10,10485760,764.2065800027922,109.7688533376584,HTTP/2,True,qdisc netem 8121: root refcnt 25 limit 1000 delay 50ms loss 1%
+h2,50,1,0,few_large,15,10,10485760,726.116670994088,115.52699910491795,HTTP/2,True,qdisc netem 8121: root refcnt 25 limit 1000 delay 50ms loss 1%
+h2,50,1,0,few_large,16,10,10485760,710.3843060322106,118.08549159614515,HTTP/2,True,qdisc netem 8121: root refcnt 25 limit 1000 delay 50ms loss 1%
+h2,50,1,0,few_large,17,10,10485760,767.3448839923367,109.31991826616226,HTTP/2,True,qdisc netem 8121: root refcnt 25 limit 1000 delay 50ms loss 1%
+h2,50,1,0,few_large,18,10,10485760,781.3946590176784,107.35430429670004,HTTP/2,True,qdisc netem 8121: root refcnt 25 limit 1000 delay 50ms loss 1%
+h2,50,1,0,few_large,19,10,10485760,770.6352900131606,108.85315153237718,HTTP/2,True,qdisc netem 8121: root refcnt 25 limit 1000 delay 50ms loss 1%
+h2,50,1,0,few_large,20,10,10485760,740.2297669905238,113.324380808201,HTTP/2,True,qdisc netem 8121: root refcnt 25 limit 1000 delay 50ms loss 1%
+h2,50,1,0,few_large,21,10,10485760,764.5831109839492,109.71479593898722,HTTP/2,True,qdisc netem 8121: root refcnt 25 limit 1000 delay 50ms loss 1%
+h2,50,1,0,few_large,22,10,10485760,774.3530279840343,108.33053784059017,HTTP/2,True,qdisc netem 8121: root refcnt 25 limit 1000 delay 50ms loss 1%
+h2,50,1,0,few_large,23,10,10485760,741.0918689565733,113.19255211652522,HTTP/2,True,qdisc netem 8121: root refcnt 25 limit 1000 delay 50ms loss 1%
+h2,50,1,0,few_large,24,10,10485760,725.6639430415817,115.5990742056109,HTTP/2,True,qdisc netem 8121: root refcnt 25 limit 1000 delay 50ms loss 1%
+h2,50,1,0,few_large,25,10,10485760,725.6608449970372,115.59956772966372,HTTP/2,True,qdisc netem 8121: root refcnt 25 limit 1000 delay 50ms loss 1%
+h2,50,1,0,few_large,26,10,10485760,737.2941340436228,113.77559664001993,HTTP/2,True,qdisc netem 8121: root refcnt 25 limit 1000 delay 50ms loss 1%
+h2,50,1,0,few_large,27,10,10485760,764.5465420209803,109.72004369839665,HTTP/2,True,qdisc netem 8121: root refcnt 25 limit 1000 delay 50ms loss 1%
+h2,50,1,0,few_large,28,10,10485760,718.7153259874322,116.71669848524544,HTTP/2,True,qdisc netem 8121: root refcnt 25 limit 1000 delay 50ms loss 1%
+h2,50,1,0,few_large,29,10,10485760,777.7261220035143,107.86069494991317,HTTP/2,True,qdisc netem 8121: root refcnt 25 limit 1000 delay 50ms loss 1%
+h2,50,1,0,few_large,30,10,10485760,818.2351079885848,102.52075373080949,HTTP/2,True,qdisc netem 8121: root refcnt 25 limit 1000 delay 50ms loss 1%
+h2,50,1,0,few_large,31,10,10485760,770.7158389966935,108.8417750817236,HTTP/2,True,qdisc netem 8121: root refcnt 25 limit 1000 delay 50ms loss 1%
+h2,50,1,0,few_large,32,10,10485760,762.3924870276824,110.03004545210598,HTTP/2,True,qdisc netem 8121: root refcnt 25 limit 1000 delay 50ms loss 1%
+h2,50,1,0,few_large,33,10,10485760,766.2854660302401,109.47105709126107,HTTP/2,True,qdisc netem 8121: root refcnt 25 limit 1000 delay 50ms loss 1%
+h2,50,1,0,few_large,34,10,10485760,713.6758560081944,117.54086858031083,HTTP/2,True,qdisc netem 8121: root refcnt 25 limit 1000 delay 50ms loss 1%
+h2,50,1,0,few_large,35,10,10485760,771.223463001661,108.77013475900867,HTTP/2,True,qdisc netem 8121: root refcnt 25 limit 1000 delay 50ms loss 1%
+h2,50,1,0,few_large,36,10,10485760,752.4489729548804,111.48407801073591,HTTP/2,True,qdisc netem 8121: root refcnt 25 limit 1000 delay 50ms loss 1%
+h2,50,1,0,few_large,37,10,10485760,732.8838359680958,114.46026762098185,HTTP/2,True,qdisc netem 8121: root refcnt 25 limit 1000 delay 50ms loss 1%
+h2,50,1,0,few_large,38,10,10485760,769.4648749893531,109.01872551513247,HTTP/2,True,qdisc netem 8121: root refcnt 25 limit 1000 delay 50ms loss 1%
+h2,50,1,0,few_large,39,10,10485760,728.1224140315317,115.20875938364848,HTTP/2,True,qdisc netem 8121: root refcnt 25 limit 1000 delay 50ms loss 1%
+h2,50,1,0,few_large,40,10,10485760,780.2445959532633,107.51254213752323,HTTP/2,True,qdisc netem 8121: root refcnt 25 limit 1000 delay 50ms loss 1%
+h2,50,3,0,few_large,1,10,10485760,778.4635769785382,107.75851623731485,HTTP/2,True,qdisc netem 8122: root refcnt 25 limit 1000 delay 50ms loss 3%
+h2,50,3,0,few_large,2,10,10485760,766.3123509846628,109.46721645842157,HTTP/2,True,qdisc netem 8122: root refcnt 25 limit 1000 delay 50ms loss 3%
+h2,50,3,0,few_large,3,10,10485760,798.1664440012537,105.09847993543092,HTTP/2,True,qdisc netem 8122: root refcnt 25 limit 1000 delay 50ms loss 3%
+h2,50,3,0,few_large,4,10,10485760,758.7757339933887,110.55451069647796,HTTP/2,True,qdisc netem 8122: root refcnt 25 limit 1000 delay 50ms loss 3%
+h2,50,3,0,few_large,5,10,10485760,774.1615909617394,108.35732614400115,HTTP/2,True,qdisc netem 8122: root refcnt 25 limit 1000 delay 50ms loss 3%
+h2,50,3,0,few_large,6,10,10485760,767.3054059850983,109.3255427964874,HTTP/2,True,qdisc netem 8122: root refcnt 25 limit 1000 delay 50ms loss 3%
+h2,50,3,0,few_large,7,10,10485760,2238.987622957211,37.46607580135031,HTTP/2,True,qdisc netem 8122: root refcnt 25 limit 1000 delay 50ms loss 3%
+h2,50,3,0,few_large,8,10,10485760,769.3067550426349,109.04113274730189,HTTP/2,True,qdisc netem 8122: root refcnt 25 limit 1000 delay 50ms loss 3%
+h2,50,3,0,few_large,9,10,10485760,736.9674100191332,113.82603743335427,HTTP/2,True,qdisc netem 8122: root refcnt 25 limit 1000 delay 50ms loss 3%
+h2,50,3,0,few_large,10,10,10485760,768.4276190120727,109.16588358425737,HTTP/2,True,qdisc netem 8122: root refcnt 25 limit 1000 delay 50ms loss 3%
+h2,50,3,0,few_large,11,10,10485760,755.6693599908613,111.00897355559644,HTTP/2,True,qdisc netem 8122: root refcnt 25 limit 1000 delay 50ms loss 3%
+h2,50,3,0,few_large,12,10,10485760,730.0214490387589,114.90906206996428,HTTP/2,True,qdisc netem 8122: root refcnt 25 limit 1000 delay 50ms loss 3%
+h2,50,3,0,few_large,13,10,10485760,744.2852480453439,112.70689593849029,HTTP/2,True,qdisc netem 8122: root refcnt 25 limit 1000 delay 50ms loss 3%
+h2,50,3,0,few_large,14,10,10485760,779.2705100146122,107.64693251182705,HTTP/2,True,qdisc netem 8122: root refcnt 25 limit 1000 delay 50ms loss 3%
+h2,50,3,0,few_large,15,10,10485760,743.3282670099288,112.85199786284936,HTTP/2,True,qdisc netem 8122: root refcnt 25 limit 1000 delay 50ms loss 3%
+h2,50,3,0,few_large,16,10,10485760,747.5748629658483,112.21094254988641,HTTP/2,True,qdisc netem 8122: root refcnt 25 limit 1000 delay 50ms loss 3%
+h2,50,3,0,few_large,17,10,10485760,772.4154010065831,108.60228821264151,HTTP/2,True,qdisc netem 8122: root refcnt 25 limit 1000 delay 50ms loss 3%
+h2,50,3,0,few_large,18,10,10485760,793.2567439856939,105.74896543396152,HTTP/2,True,qdisc netem 8122: root refcnt 25 limit 1000 delay 50ms loss 3%
+h2,50,3,0,few_large,19,10,10485760,779.7292630420998,107.58359853357301,HTTP/2,True,qdisc netem 8122: root refcnt 25 limit 1000 delay 50ms loss 3%
+h2,50,3,0,few_large,20,10,10485760,765.3527880320325,109.60446125204302,HTTP/2,True,qdisc netem 8122: root refcnt 25 limit 1000 delay 50ms loss 3%
+h2,50,3,0,few_large,21,10,10485760,2857.2441340074874,29.35908731129105,HTTP/2,True,qdisc netem 8122: root refcnt 25 limit 1000 delay 50ms loss 3%
+h2,50,3,0,few_large,22,10,10485760,830.7203230215237,100.97992991779323,HTTP/2,True,qdisc netem 8122: root refcnt 25 limit 1000 delay 50ms loss 3%
+h2,50,3,0,few_large,23,10,10485760,716.2048890022561,117.12581314107136,HTTP/2,True,qdisc netem 8122: root refcnt 25 limit 1000 delay 50ms loss 3%
+h2,50,3,0,few_large,24,10,10485760,795.3748760046437,105.4673494608978,HTTP/2,True,qdisc netem 8122: root refcnt 25 limit 1000 delay 50ms loss 3%
+h2,50,3,0,few_large,25,10,10485760,763.3675700053573,109.88949923483297,HTTP/2,True,qdisc netem 8122: root refcnt 25 limit 1000 delay 50ms loss 3%
+h2,50,3,0,few_large,26,10,10485760,816.677974013146,102.71622679840965,HTTP/2,True,qdisc netem 8122: root refcnt 25 limit 1000 delay 50ms loss 3%
+h2,50,3,0,few_large,27,10,10485760,796.8255770392716,105.27533555297218,HTTP/2,True,qdisc netem 8122: root refcnt 25 limit 1000 delay 50ms loss 3%
+h2,50,3,0,few_large,28,10,10485760,790.8951690187678,106.06472676280744,HTTP/2,True,qdisc netem 8122: root refcnt 25 limit 1000 delay 50ms loss 3%
+h2,50,3,0,few_large,29,10,10485760,715.5069889849983,117.24005675891281,HTTP/2,True,qdisc netem 8122: root refcnt 25 limit 1000 delay 50ms loss 3%
+h2,50,3,0,few_large,30,10,10485760,834.9172350135632,100.47233004914227,HTTP/2,True,qdisc netem 8122: root refcnt 25 limit 1000 delay 50ms loss 3%
+h2,50,3,0,few_large,31,10,10485760,720.8597129792906,116.3694939384273,HTTP/2,True,qdisc netem 8122: root refcnt 25 limit 1000 delay 50ms loss 3%
+h2,50,3,0,few_large,32,10,10485760,815.2190450346097,102.90004939278457,HTTP/2,True,qdisc netem 8122: root refcnt 25 limit 1000 delay 50ms loss 3%
+h2,50,3,0,few_large,33,10,10485760,768.5837660101242,109.14370522743387,HTTP/2,True,qdisc netem 8122: root refcnt 25 limit 1000 delay 50ms loss 3%
+h2,50,3,0,few_large,34,10,10485760,743.2327919523232,112.86649473531453,HTTP/2,True,qdisc netem 8122: root refcnt 25 limit 1000 delay 50ms loss 3%
+h2,50,3,0,few_large,35,10,10485760,781.1502179829404,107.38789808778112,HTTP/2,True,qdisc netem 8122: root refcnt 25 limit 1000 delay 50ms loss 3%
+h2,50,3,0,few_large,36,10,10485760,768.0883930297568,109.21409666029173,HTTP/2,True,qdisc netem 8122: root refcnt 25 limit 1000 delay 50ms loss 3%
+h2,50,3,0,few_large,37,10,10485760,728.3034200081602,115.18012643557284,HTTP/2,True,qdisc netem 8122: root refcnt 25 limit 1000 delay 50ms loss 3%
+h2,50,3,0,few_large,38,10,10485760,779.1804090375081,107.65938032710716,HTTP/2,True,qdisc netem 8122: root refcnt 25 limit 1000 delay 50ms loss 3%
+h2,50,3,0,few_large,39,10,10485760,774.2984439828433,108.3381745784042,HTTP/2,True,qdisc netem 8122: root refcnt 25 limit 1000 delay 50ms loss 3%
+h2,50,3,0,few_large,40,10,10485760,726.2639850378036,115.50356582205237,HTTP/2,True,qdisc netem 8122: root refcnt 25 limit 1000 delay 50ms loss 3%
+h2,50,5,0,few_large,1,10,10485760,767.7780710509978,109.25823901843124,HTTP/2,True,qdisc netem 8123: root refcnt 25 limit 1000 delay 50ms loss 5%
+h2,50,5,0,few_large,2,10,10485760,767.6184809533879,109.28095412165281,HTTP/2,True,qdisc netem 8123: root refcnt 25 limit 1000 delay 50ms loss 5%
+h2,50,5,0,few_large,3,10,10485760,777.0765780005604,107.95085371874316,HTTP/2,True,qdisc netem 8123: root refcnt 25 limit 1000 delay 50ms loss 5%
+h2,50,5,0,few_large,4,10,10485760,897.540827980265,93.46213273525255,HTTP/2,True,qdisc netem 8123: root refcnt 25 limit 1000 delay 50ms loss 5%
+h2,50,5,0,few_large,5,10,10485760,787.5992310000584,106.50858545593704,HTTP/2,True,qdisc netem 8123: root refcnt 25 limit 1000 delay 50ms loss 5%
+h2,50,5,0,few_large,6,10,10485760,727.8724319767207,115.24832692479677,HTTP/2,True,qdisc netem 8123: root refcnt 25 limit 1000 delay 50ms loss 5%
+h2,50,5,0,few_large,7,10,10485760,789.6506009856239,106.23189534117408,HTTP/2,True,qdisc netem 8123: root refcnt 25 limit 1000 delay 50ms loss 5%
+h2,50,5,0,few_large,8,10,10485760,764.0222839545459,109.79533157830075,HTTP/2,True,qdisc netem 8123: root refcnt 25 limit 1000 delay 50ms loss 5%
+h2,50,5,0,few_large,9,10,10485760,983.8448210502975,85.2635275453785,HTTP/2,True,qdisc netem 8123: root refcnt 25 limit 1000 delay 50ms loss 5%
+h2,50,5,0,few_large,10,10,10485760,771.273092017509,108.76313574037621,HTTP/2,True,qdisc netem 8123: root refcnt 25 limit 1000 delay 50ms loss 5%
+h2,50,5,0,few_large,11,10,10485760,779.0479469695129,107.67768572693869,HTTP/2,True,qdisc netem 8123: root refcnt 25 limit 1000 delay 50ms loss 5%
+h2,50,5,0,few_large,12,10,10485760,739.9889229563996,113.36126446982315,HTTP/2,True,qdisc netem 8123: root refcnt 25 limit 1000 delay 50ms loss 5%
+h2,50,5,0,few_large,13,10,10485760,753.7636079941876,111.28963923215416,HTTP/2,True,qdisc netem 8123: root refcnt 25 limit 1000 delay 50ms loss 5%
+h2,50,5,0,few_large,14,10,10485760,845.7975030178204,99.17986243834132,HTTP/2,True,qdisc netem 8123: root refcnt 25 limit 1000 delay 50ms loss 5%
+h2,50,5,0,few_large,15,10,10485760,736.8264389806427,113.84781484775655,HTTP/2,True,qdisc netem 8123: root refcnt 25 limit 1000 delay 50ms loss 5%
+h2,50,5,0,few_large,16,10,10485760,780.3581889602356,107.4968920512918,HTTP/2,True,qdisc netem 8123: root refcnt 25 limit 1000 delay 50ms loss 5%
+h2,50,5,0,few_large,17,10,10485760,785.5949390213937,106.7803212995439,HTTP/2,True,qdisc netem 8123: root refcnt 25 limit 1000 delay 50ms loss 5%
+h2,50,5,0,few_large,18,10,10485760,837.4198640231043,100.17206852127596,HTTP/2,True,qdisc netem 8123: root refcnt 25 limit 1000 delay 50ms loss 5%
+h2,50,5,0,few_large,19,10,10485760,1990.9356980351731,42.13399763879166,HTTP/2,True,qdisc netem 8123: root refcnt 25 limit 1000 delay 50ms loss 5%
+h2,50,5,0,few_large,20,10,10485760,876.4900380047038,95.70682650422756,HTTP/2,True,qdisc netem 8123: root refcnt 25 limit 1000 delay 50ms loss 5%
+h2,50,5,0,few_large,21,10,10485760,723.4381270245649,115.95474010336697,HTTP/2,True,qdisc netem 8123: root refcnt 25 limit 1000 delay 50ms loss 5%
+h2,50,5,0,few_large,22,10,10485760,720.9930039825849,116.34798054438018,HTTP/2,True,qdisc netem 8123: root refcnt 25 limit 1000 delay 50ms loss 5%
+h2,50,5,0,few_large,23,10,10485760,793.2510540122166,105.74972396911319,HTTP/2,True,qdisc netem 8123: root refcnt 25 limit 1000 delay 50ms loss 5%
+h2,50,5,0,few_large,24,10,10485760,725.8146939566359,115.575064404816,HTTP/2,True,qdisc netem 8123: root refcnt 25 limit 1000 delay 50ms loss 5%
+h2,50,5,0,few_large,25,10,10485760,883.4110550233163,94.95701861891004,HTTP/2,True,qdisc netem 8123: root refcnt 25 limit 1000 delay 50ms loss 5%
+h2,50,5,0,few_large,26,10,10485760,778.3691610093229,107.77158731625966,HTTP/2,True,qdisc netem 8123: root refcnt 25 limit 1000 delay 50ms loss 5%
+h2,50,5,0,few_large,27,10,10485760,1202.7063809800893,69.74776331663008,HTTP/2,True,qdisc netem 8123: root refcnt 25 limit 1000 delay 50ms loss 5%
+h2,50,5,0,few_large,28,10,10485760,762.7370080444962,109.98034593216735,HTTP/2,True,qdisc netem 8123: root refcnt 25 limit 1000 delay 50ms loss 5%
+h2,50,5,0,few_large,29,10,10485760,713.8983460026793,117.50423638001422,HTTP/2,True,qdisc netem 8123: root refcnt 25 limit 1000 delay 50ms loss 5%
+h2,50,5,0,few_large,30,10,10485760,781.4426470431499,107.3477117193579,HTTP/2,True,qdisc netem 8123: root refcnt 25 limit 1000 delay 50ms loss 5%
+h2,50,5,0,few_large,31,10,10485760,748.370697023347,112.09161493583039,HTTP/2,True,qdisc netem 8123: root refcnt 25 limit 1000 delay 50ms loss 5%
+h2,50,5,0,few_large,32,10,10485760,769.6959520108066,108.98599606877266,HTTP/2,True,qdisc netem 8123: root refcnt 25 limit 1000 delay 50ms loss 5%
+h2,50,5,0,few_large,33,10,10485760,779.1670960141346,107.66121981937269,HTTP/2,True,qdisc netem 8123: root refcnt 25 limit 1000 delay 50ms loss 5%
+h2,50,5,0,few_large,34,10,10485760,765.7984090037644,109.54068200419525,HTTP/2,True,qdisc netem 8123: root refcnt 25 limit 1000 delay 50ms loss 5%
+h2,50,5,0,few_large,35,10,10485760,718.4812999912538,116.75471581657195,HTTP/2,True,qdisc netem 8123: root refcnt 25 limit 1000 delay 50ms loss 5%
+h2,50,5,0,few_large,36,10,10485760,731.5015589701943,114.67655669537407,HTTP/2,True,qdisc netem 8123: root refcnt 25 limit 1000 delay 50ms loss 5%
+h2,50,5,0,few_large,37,10,10485760,713.3704969892278,117.59118207725196,HTTP/2,True,qdisc netem 8123: root refcnt 25 limit 1000 delay 50ms loss 5%
+h2,50,5,0,few_large,38,10,10485760,776.083349948749,108.08900874569682,HTTP/2,True,qdisc netem 8123: root refcnt 25 limit 1000 delay 50ms loss 5%
+h2,50,5,0,few_large,39,10,10485760,725.5700869718567,115.61402751606789,HTTP/2,True,qdisc netem 8123: root refcnt 25 limit 1000 delay 50ms loss 5%
+h2,50,5,0,few_large,40,10,10485760,848.9899029955268,98.80692303173598,HTTP/2,True,qdisc netem 8123: root refcnt 25 limit 1000 delay 50ms loss 5%
+h3,50,0,0,few_large,1,10,10485760,1273.8637260044925,65.85169063814301,h3,True,qdisc netem 8124: root refcnt 25 limit 1000 delay 50ms
+h3,50,0,0,few_large,2,10,10485760,1222.7173409773968,68.60627324786647,h3,True,qdisc netem 8124: root refcnt 25 limit 1000 delay 50ms
+h3,50,0,0,few_large,3,10,10485760,1176.0832970030606,71.32664855776937,h3,True,qdisc netem 8124: root refcnt 25 limit 1000 delay 50ms
+h3,50,0,0,few_large,4,10,10485760,1295.308079046663,64.7614890673264,h3,True,qdisc netem 8124: root refcnt 25 limit 1000 delay 50ms
+h3,50,0,0,few_large,5,10,10485760,1265.4373469995335,66.29018828857983,h3,True,qdisc netem 8124: root refcnt 25 limit 1000 delay 50ms
+h3,50,0,0,few_large,6,10,10485760,1240.7807710114866,67.60749518354957,h3,True,qdisc netem 8124: root refcnt 25 limit 1000 delay 50ms
+h3,50,0,0,few_large,7,10,10485760,1273.9839690038934,65.84547532853895,h3,True,qdisc netem 8124: root refcnt 25 limit 1000 delay 50ms
+h3,50,0,0,few_large,8,10,10485760,1231.0804090229794,68.14021195136587,h3,True,qdisc netem 8124: root refcnt 25 limit 1000 delay 50ms
+h3,50,0,0,few_large,9,10,10485760,1243.311318976339,67.46989166725056,h3,True,qdisc netem 8124: root refcnt 25 limit 1000 delay 50ms
+h3,50,0,0,few_large,10,10,10485760,1224.7082839603536,68.49474368601199,h3,True,qdisc netem 8124: root refcnt 25 limit 1000 delay 50ms
+h3,50,0,0,few_large,11,10,10485760,1244.4990599760786,67.40549888532053,h3,True,qdisc netem 8124: root refcnt 25 limit 1000 delay 50ms
+h3,50,0,0,few_large,12,10,10485760,1197.062265011482,70.0766221205673,h3,True,qdisc netem 8124: root refcnt 25 limit 1000 delay 50ms
+h3,50,0,0,few_large,13,10,10485760,1222.7982160402462,68.60173567446475,h3,True,qdisc netem 8124: root refcnt 25 limit 1000 delay 50ms
+h3,50,0,0,few_large,14,10,10485760,1242.0063369791023,67.54078260504998,h3,True,qdisc netem 8124: root refcnt 25 limit 1000 delay 50ms
+h3,50,0,0,few_large,15,10,10485760,1137.2049300116487,73.76513923408751,h3,True,qdisc netem 8124: root refcnt 25 limit 1000 delay 50ms
+h3,50,0,0,few_large,16,10,10485760,1256.5584580297582,66.75859723353467,h3,True,qdisc netem 8124: root refcnt 25 limit 1000 delay 50ms
+h3,50,0,0,few_large,17,10,10485760,1247.0595429767855,67.26710081521871,h3,True,qdisc netem 8124: root refcnt 25 limit 1000 delay 50ms
+h3,50,0,0,few_large,18,10,10485760,1189.407112018671,70.5276428502499,h3,True,qdisc netem 8124: root refcnt 25 limit 1000 delay 50ms
+h3,50,0,0,few_large,19,10,10485760,1170.360340969637,71.67542940706693,h3,True,qdisc netem 8124: root refcnt 25 limit 1000 delay 50ms
+h3,50,0,0,few_large,20,10,10485760,1127.042773005087,74.43025412099544,h3,True,qdisc netem 8124: root refcnt 25 limit 1000 delay 50ms
+h3,50,0,0,few_large,21,10,10485760,1236.21635499876,67.85711874850917,h3,True,qdisc netem 8124: root refcnt 25 limit 1000 delay 50ms
+h3,50,0,0,few_large,22,10,10485760,1190.4705920023844,70.464638575324,h3,True,qdisc netem 8124: root refcnt 25 limit 1000 delay 50ms
+h3,50,0,0,few_large,23,10,10485760,1232.8181550255977,68.04416341375037,h3,True,qdisc netem 8124: root refcnt 25 limit 1000 delay 50ms
+h3,50,0,0,few_large,24,10,10485760,1226.9014539779164,68.37230466067237,h3,True,qdisc netem 8124: root refcnt 25 limit 1000 delay 50ms
+h3,50,0,0,few_large,25,10,10485760,1134.708400000818,73.92743369128098,h3,True,qdisc netem 8124: root refcnt 25 limit 1000 delay 50ms
+h3,50,0,0,few_large,26,10,10485760,1186.7771510151215,70.68393584106943,h3,True,qdisc netem 8124: root refcnt 25 limit 1000 delay 50ms
+h3,50,0,0,few_large,27,10,10485760,1137.36140698893,73.7549907043896,h3,True,qdisc netem 8124: root refcnt 25 limit 1000 delay 50ms
+h3,50,0,0,few_large,28,10,10485760,1105.582221003715,75.87502621364796,h3,True,qdisc netem 8124: root refcnt 25 limit 1000 delay 50ms
+h3,50,0,0,few_large,29,10,10485760,1168.355125002563,71.79844398749566,h3,True,qdisc netem 8124: root refcnt 25 limit 1000 delay 50ms
+h3,50,0,0,few_large,30,10,10485760,1248.0256589478813,67.2150283117722,h3,True,qdisc netem 8124: root refcnt 25 limit 1000 delay 50ms
+h3,50,0,0,few_large,31,10,10485760,1165.4643259826116,71.97653169630485,h3,True,qdisc netem 8124: root refcnt 25 limit 1000 delay 50ms
+h3,50,0,0,few_large,32,10,10485760,1220.263198018074,68.74425135187722,h3,True,qdisc netem 8124: root refcnt 25 limit 1000 delay 50ms
+h3,50,0,0,few_large,33,10,10485760,1239.9971960112453,67.65021749229767,h3,True,qdisc netem 8124: root refcnt 25 limit 1000 delay 50ms
+h3,50,0,0,few_large,34,10,10485760,1166.4951820275746,71.9129245387805,h3,True,qdisc netem 8124: root refcnt 25 limit 1000 delay 50ms
+h3,50,0,0,few_large,35,10,10485760,1118.8269309932366,74.97681515900791,h3,True,qdisc netem 8124: root refcnt 25 limit 1000 delay 50ms
+h3,50,0,0,few_large,36,10,10485760,1310.3414449724369,64.01848947223412,h3,True,qdisc netem 8124: root refcnt 25 limit 1000 delay 50ms
+h3,50,0,0,few_large,37,10,10485760,1155.4125060210936,72.60271077459548,h3,True,qdisc netem 8124: root refcnt 25 limit 1000 delay 50ms
+h3,50,0,0,few_large,38,10,10485760,1131.6013460163958,74.13041730226483,h3,True,qdisc netem 8124: root refcnt 25 limit 1000 delay 50ms
+h3,50,0,0,few_large,39,10,10485760,1135.5256750248373,73.87422569565868,h3,True,qdisc netem 8124: root refcnt 25 limit 1000 delay 50ms
+h3,50,0,0,few_large,40,10,10485760,1209.3393449904397,69.36521196262176,h3,True,qdisc netem 8124: root refcnt 25 limit 1000 delay 50ms
+h3,50,1,0,few_large,1,10,10485760,1135.1103030028753,73.90125856322838,h3,True,qdisc netem 8125: root refcnt 25 limit 1000 delay 50ms loss 1%
+h3,50,1,0,few_large,2,10,10485760,1235.4563099797815,67.89886402488229,h3,True,qdisc netem 8125: root refcnt 25 limit 1000 delay 50ms loss 1%
+h3,50,1,0,few_large,3,10,10485760,1148.0683629633859,73.06714713701705,h3,True,qdisc netem 8125: root refcnt 25 limit 1000 delay 50ms loss 1%
+h3,50,1,0,few_large,4,10,10485760,1489.3619060167111,56.323503146627935,h3,True,qdisc netem 8125: root refcnt 25 limit 1000 delay 50ms loss 1%
+h3,50,1,0,few_large,5,10,10485760,1221.7761219944805,68.65912542394487,h3,True,qdisc netem 8125: root refcnt 25 limit 1000 delay 50ms loss 1%
+h3,50,1,0,few_large,6,10,10485760,1218.7648700200953,68.82876431991092,h3,True,qdisc netem 8125: root refcnt 25 limit 1000 delay 50ms loss 1%
+h3,50,1,0,few_large,7,10,10485760,1164.3946890253574,72.04265082161776,h3,True,qdisc netem 8125: root refcnt 25 limit 1000 delay 50ms loss 1%
+h3,50,1,0,few_large,8,10,10485760,1168.8415380194783,71.76856508893344,h3,True,qdisc netem 8125: root refcnt 25 limit 1000 delay 50ms loss 1%
+h3,50,1,0,few_large,9,10,10485760,1163.2528129848652,72.11336956473917,h3,True,qdisc netem 8125: root refcnt 25 limit 1000 delay 50ms loss 1%
+h3,50,1,0,few_large,10,10,10485760,1147.4509150139056,73.10646486258057,h3,True,qdisc netem 8125: root refcnt 25 limit 1000 delay 50ms loss 1%
+h3,50,1,0,few_large,11,10,10485760,1196.075464016758,70.13443760336573,h3,True,qdisc netem 8125: root refcnt 25 limit 1000 delay 50ms loss 1%
+h3,50,1,0,few_large,12,10,10485760,1164.9542539962567,72.00804642091083,h3,True,qdisc netem 8125: root refcnt 25 limit 1000 delay 50ms loss 1%
+h3,50,1,0,few_large,13,10,10485760,1258.6846789927222,66.64582591656782,h3,True,qdisc netem 8125: root refcnt 25 limit 1000 delay 50ms loss 1%
+h3,50,1,0,few_large,14,10,10485760,1109.2806530068628,75.622052699301,h3,True,qdisc netem 8125: root refcnt 25 limit 1000 delay 50ms loss 1%
+h3,50,1,0,few_large,15,10,10485760,1183.8110309909098,70.86103930775431,h3,True,qdisc netem 8125: root refcnt 25 limit 1000 delay 50ms loss 1%
+h3,50,1,0,few_large,16,10,10485760,1132.332266017329,74.08256614910965,h3,True,qdisc netem 8125: root refcnt 25 limit 1000 delay 50ms loss 1%
+h3,50,1,0,few_large,17,10,10485760,1189.1318219713867,70.54397035723976,h3,True,qdisc netem 8125: root refcnt 25 limit 1000 delay 50ms loss 1%
+h3,50,1,0,few_large,18,10,10485760,1248.4185429639183,67.19387538160308,h3,True,qdisc netem 8125: root refcnt 25 limit 1000 delay 50ms loss 1%
+h3,50,1,0,few_large,19,10,10485760,1231.731747975573,68.10417945130662,h3,True,qdisc netem 8125: root refcnt 25 limit 1000 delay 50ms loss 1%
+h3,50,1,0,few_large,20,10,10485760,1201.6208979766816,69.81076988694973,h3,True,qdisc netem 8125: root refcnt 25 limit 1000 delay 50ms loss 1%
+h3,50,1,0,few_large,21,10,10485760,1220.269730023574,68.74388336944114,h3,True,qdisc netem 8125: root refcnt 25 limit 1000 delay 50ms loss 1%
+h3,50,1,0,few_large,22,10,10485760,1119.3550070165657,74.94144348680128,h3,True,qdisc netem 8125: root refcnt 25 limit 1000 delay 50ms loss 1%
+h3,50,1,0,few_large,23,10,10485760,1145.8300970261917,73.209876593146,h3,True,qdisc netem 8125: root refcnt 25 limit 1000 delay 50ms loss 1%
+h3,50,1,0,few_large,24,10,10485760,1154.3241399922408,72.67116496460334,h3,True,qdisc netem 8125: root refcnt 25 limit 1000 delay 50ms loss 1%
+h3,50,1,0,few_large,25,10,10485760,1197.157080983743,70.0710719858651,h3,True,qdisc netem 8125: root refcnt 25 limit 1000 delay 50ms loss 1%
+h3,50,1,0,few_large,26,10,10485760,1316.916685027536,63.69885122857715,h3,True,qdisc netem 8125: root refcnt 25 limit 1000 delay 50ms loss 1%
+h3,50,1,0,few_large,27,10,10485760,1161.4370699971914,72.2261086433231,h3,True,qdisc netem 8125: root refcnt 25 limit 1000 delay 50ms loss 1%
+h3,50,1,0,few_large,28,10,10485760,1222.2617129446007,68.63184791897524,h3,True,qdisc netem 8125: root refcnt 25 limit 1000 delay 50ms loss 1%
+h3,50,1,0,few_large,29,10,10485760,1201.5665600192733,69.81392691109384,h3,True,qdisc netem 8125: root refcnt 25 limit 1000 delay 50ms loss 1%
+h3,50,1,0,few_large,30,10,10485760,1136.1807099892758,73.83163546298177,h3,True,qdisc netem 8125: root refcnt 25 limit 1000 delay 50ms loss 1%
+h3,50,1,0,few_large,31,10,10485760,1149.8251869925298,72.95550745362564,h3,True,qdisc netem 8125: root refcnt 25 limit 1000 delay 50ms loss 1%
+h3,50,1,0,few_large,32,10,10485760,1185.7745770248584,70.74369920332795,h3,True,qdisc netem 8125: root refcnt 25 limit 1000 delay 50ms loss 1%
+h3,50,1,0,few_large,33,10,10485760,1163.2848349981941,72.11138448317367,h3,True,qdisc netem 8125: root refcnt 25 limit 1000 delay 50ms loss 1%
+h3,50,1,0,few_large,34,10,10485760,1159.4165349961258,72.35197831664554,h3,True,qdisc netem 8125: root refcnt 25 limit 1000 delay 50ms loss 1%
+h3,50,1,0,few_large,35,10,10485760,1180.0963439745829,71.08409447102461,h3,True,qdisc netem 8125: root refcnt 25 limit 1000 delay 50ms loss 1%
+h3,50,1,0,few_large,36,10,10485760,1284.756604989525,65.29336348551713,h3,True,qdisc netem 8125: root refcnt 25 limit 1000 delay 50ms loss 1%
+h3,50,1,0,few_large,37,10,10485760,1168.537697987631,71.78722615835363,h3,True,qdisc netem 8125: root refcnt 25 limit 1000 delay 50ms loss 1%
+h3,50,1,0,few_large,38,10,10485760,1249.525723978877,67.13433616466953,h3,True,qdisc netem 8125: root refcnt 25 limit 1000 delay 50ms loss 1%
+h3,50,1,0,few_large,39,10,10485760,1113.4315259987488,75.3401336689781,h3,True,qdisc netem 8125: root refcnt 25 limit 1000 delay 50ms loss 1%
+h3,50,1,0,few_large,40,10,10485760,1247.8034039959311,67.22700044844046,h3,True,qdisc netem 8125: root refcnt 25 limit 1000 delay 50ms loss 1%
+h3,50,3,0,few_large,1,10,10485760,1201.1056190240197,69.84071897703981,h3,True,qdisc netem 8126: root refcnt 25 limit 1000 delay 50ms loss 3%
+h3,50,3,0,few_large,2,10,10485760,1207.9622250166722,69.44429077560122,h3,True,qdisc netem 8126: root refcnt 25 limit 1000 delay 50ms loss 3%
+h3,50,3,0,few_large,3,10,10485760,1211.5058290073648,69.24116912316569,h3,True,qdisc netem 8126: root refcnt 25 limit 1000 delay 50ms loss 3%
+h3,50,3,0,few_large,4,10,10485760,1326.938999001868,63.21773650717904,h3,True,qdisc netem 8126: root refcnt 25 limit 1000 delay 50ms loss 3%
+h3,50,3,0,few_large,5,10,10485760,1274.2526209913194,65.8315930594201,h3,True,qdisc netem 8126: root refcnt 25 limit 1000 delay 50ms loss 3%
+h3,50,3,0,few_large,6,10,10485760,1184.694721014239,70.80818248956456,h3,True,qdisc netem 8126: root refcnt 25 limit 1000 delay 50ms loss 3%
+h3,50,3,0,few_large,7,10,10485760,1126.2184160295874,74.48473476018545,h3,True,qdisc netem 8126: root refcnt 25 limit 1000 delay 50ms loss 3%
+h3,50,3,0,few_large,8,10,10485760,1151.4242860139348,72.8541867832244,h3,True,qdisc netem 8126: root refcnt 25 limit 1000 delay 50ms loss 3%
+h3,50,3,0,few_large,9,10,10485760,1157.285448978655,72.48521103763329,h3,True,qdisc netem 8126: root refcnt 25 limit 1000 delay 50ms loss 3%
+h3,50,3,0,few_large,10,10,10485760,1170.6237550242804,71.6593009837393,h3,True,qdisc netem 8126: root refcnt 25 limit 1000 delay 50ms loss 3%
+h3,50,3,0,few_large,11,10,10485760,1115.7757859909907,75.18184303085185,h3,True,qdisc netem 8126: root refcnt 25 limit 1000 delay 50ms loss 3%
+h3,50,3,0,few_large,12,10,10485760,1190.0873720296659,70.48732888992367,h3,True,qdisc netem 8126: root refcnt 25 limit 1000 delay 50ms loss 3%
+h3,50,3,0,few_large,13,10,10485760,1136.8459389777854,73.78843264851491,h3,True,qdisc netem 8126: root refcnt 25 limit 1000 delay 50ms loss 3%
+h3,50,3,0,few_large,14,10,10485760,1215.1352619985119,69.0343557819514,h3,True,qdisc netem 8126: root refcnt 25 limit 1000 delay 50ms loss 3%
+h3,50,3,0,few_large,15,10,10485760,1245.3900330001488,67.35727585511356,h3,True,qdisc netem 8126: root refcnt 25 limit 1000 delay 50ms loss 3%
+h3,50,3,0,few_large,16,10,10485760,1142.654107999988,73.41336228758466,h3,True,qdisc netem 8126: root refcnt 25 limit 1000 delay 50ms loss 3%
+h3,50,3,0,few_large,17,10,10485760,1343.45696400851,62.44046683096328,h3,True,qdisc netem 8126: root refcnt 25 limit 1000 delay 50ms loss 3%
+h3,50,3,0,few_large,18,10,10485760,1136.8024669936858,73.79125436087388,h3,True,qdisc netem 8126: root refcnt 25 limit 1000 delay 50ms loss 3%
+h3,50,3,0,few_large,19,10,10485760,1219.1087899846025,68.80934719620839,h3,True,qdisc netem 8126: root refcnt 25 limit 1000 delay 50ms loss 3%
+h3,50,3,0,few_large,20,10,10485760,1140.4821940232068,73.55316938713474,h3,True,qdisc netem 8126: root refcnt 25 limit 1000 delay 50ms loss 3%
+h3,50,3,0,few_large,21,10,10485760,1160.758103011176,72.26835615653879,h3,True,qdisc netem 8126: root refcnt 25 limit 1000 delay 50ms loss 3%
+h3,50,3,0,few_large,22,10,10485760,1317.677171959076,63.662087941677804,h3,True,qdisc netem 8126: root refcnt 25 limit 1000 delay 50ms loss 3%
+h3,50,3,0,few_large,23,10,10485760,1228.7058230140246,68.27189912246597,h3,True,qdisc netem 8126: root refcnt 25 limit 1000 delay 50ms loss 3%
+h3,50,3,0,few_large,24,10,10485760,1201.8836559727788,69.7955077291607,h3,True,qdisc netem 8126: root refcnt 25 limit 1000 delay 50ms loss 3%
+h3,50,3,0,few_large,25,10,10485760,1239.2728230333887,67.6897600277158,h3,True,qdisc netem 8126: root refcnt 25 limit 1000 delay 50ms loss 3%
+h3,50,3,0,few_large,26,10,10485760,1206.9316490087658,69.503587936313,h3,True,qdisc netem 8126: root refcnt 25 limit 1000 delay 50ms loss 3%
+h3,50,3,0,few_large,27,10,10485760,1144.507767050527,73.29446109062242,h3,True,qdisc netem 8126: root refcnt 25 limit 1000 delay 50ms loss 3%
+h3,50,3,0,few_large,28,10,10485760,1145.9884389769286,73.19976113798198,h3,True,qdisc netem 8126: root refcnt 25 limit 1000 delay 50ms loss 3%
+h3,50,3,0,few_large,29,10,10485760,1150.4631399875507,72.91505228138621,h3,True,qdisc netem 8126: root refcnt 25 limit 1000 delay 50ms loss 3%
+h3,50,3,0,few_large,30,10,10485760,1298.255424015224,64.61446526490023,h3,True,qdisc netem 8126: root refcnt 25 limit 1000 delay 50ms loss 3%
+h3,50,3,0,few_large,31,10,10485760,1160.9937909524888,72.25368529419885,h3,True,qdisc netem 8126: root refcnt 25 limit 1000 delay 50ms loss 3%
+h3,50,3,0,few_large,32,10,10485760,1331.8811520002782,62.98315722391309,h3,True,qdisc netem 8126: root refcnt 25 limit 1000 delay 50ms loss 3%
+h3,50,3,0,few_large,33,10,10485760,1159.65376800159,72.33717710809438,h3,True,qdisc netem 8126: root refcnt 25 limit 1000 delay 50ms loss 3%
+h3,50,3,0,few_large,34,10,10485760,1240.752115030773,67.60905662282065,h3,True,qdisc netem 8126: root refcnt 25 limit 1000 delay 50ms loss 3%
+h3,50,3,0,few_large,35,10,10485760,1309.499722032342,64.0596394093226,h3,True,qdisc netem 8126: root refcnt 25 limit 1000 delay 50ms loss 3%
+h3,50,3,0,few_large,36,10,10485760,1143.1422819732688,73.38201142835656,h3,True,qdisc netem 8126: root refcnt 25 limit 1000 delay 50ms loss 3%
+h3,50,3,0,few_large,37,10,10485760,1128.125472983811,74.35882090147946,h3,True,qdisc netem 8126: root refcnt 25 limit 1000 delay 50ms loss 3%
+h3,50,3,0,few_large,38,10,10485760,1174.0877880365588,71.44787711341732,h3,True,qdisc netem 8126: root refcnt 25 limit 1000 delay 50ms loss 3%
+h3,50,3,0,few_large,39,10,10485760,1214.956699986942,69.04450175129828,h3,True,qdisc netem 8126: root refcnt 25 limit 1000 delay 50ms loss 3%
+h3,50,3,0,few_large,40,10,10485760,1146.4573330013081,73.16982288420174,h3,True,qdisc netem 8126: root refcnt 25 limit 1000 delay 50ms loss 3%
+h3,50,5,0,few_large,1,10,10485760,1182.6670950395055,70.92957972014761,h3,True,qdisc netem 8127: root refcnt 25 limit 1000 delay 50ms loss 5%
+h3,50,5,0,few_large,2,10,10485760,1254.4038920314051,66.87326189984417,h3,True,qdisc netem 8127: root refcnt 25 limit 1000 delay 50ms loss 5%
+h3,50,5,0,few_large,3,10,10485760,1143.408986972645,73.36489476272317,h3,True,qdisc netem 8127: root refcnt 25 limit 1000 delay 50ms loss 5%
+h3,50,5,0,few_large,4,10,10485760,1172.6885620155372,71.53312713805474,h3,True,qdisc netem 8127: root refcnt 25 limit 1000 delay 50ms loss 5%
+h3,50,5,0,few_large,5,10,10485760,1194.2169700050727,70.24358396083058,h3,True,qdisc netem 8127: root refcnt 25 limit 1000 delay 50ms loss 5%
+h3,50,5,0,few_large,6,10,10485760,1132.059831987135,74.100394369397,h3,True,qdisc netem 8127: root refcnt 25 limit 1000 delay 50ms loss 5%
+h3,50,5,0,few_large,7,10,10485760,1149.7003380209208,72.96342988330369,h3,True,qdisc netem 8127: root refcnt 25 limit 1000 delay 50ms loss 5%
+h3,50,5,0,few_large,8,10,10485760,1134.9968260037713,73.90864721212998,h3,True,qdisc netem 8127: root refcnt 25 limit 1000 delay 50ms loss 5%
+h3,50,5,0,few_large,9,10,10485760,1249.338040011935,67.14442153638309,h3,True,qdisc netem 8127: root refcnt 25 limit 1000 delay 50ms loss 5%
+h3,50,5,0,few_large,10,10,10485760,1136.2785939709283,73.82527528468624,h3,True,qdisc netem 8127: root refcnt 25 limit 1000 delay 50ms loss 5%
+h3,50,5,0,few_large,11,10,10485760,1149.4489669566974,72.97938613325162,h3,True,qdisc netem 8127: root refcnt 25 limit 1000 delay 50ms loss 5%
+h3,50,5,0,few_large,12,10,10485760,1132.6851320336573,74.05948716691319,h3,True,qdisc netem 8127: root refcnt 25 limit 1000 delay 50ms loss 5%
+h3,50,5,0,few_large,13,10,10485760,1133.5187379736453,74.00502275768324,h3,True,qdisc netem 8127: root refcnt 25 limit 1000 delay 50ms loss 5%
+h3,50,5,0,few_large,14,10,10485760,1181.638787034899,70.99130539756266,h3,True,qdisc netem 8127: root refcnt 25 limit 1000 delay 50ms loss 5%
+h3,50,5,0,few_large,15,10,10485760,1197.8646960342303,70.02967887585433,h3,True,qdisc netem 8127: root refcnt 25 limit 1000 delay 50ms loss 5%
+h3,50,5,0,few_large,16,10,10485760,1124.600027978886,74.59192416236979,h3,True,qdisc netem 8127: root refcnt 25 limit 1000 delay 50ms loss 5%
+h3,50,5,0,few_large,17,10,10485760,1171.316983003635,71.6168904039016,h3,True,qdisc netem 8127: root refcnt 25 limit 1000 delay 50ms loss 5%
+h3,50,5,0,few_large,18,10,10485760,1289.271590008866,65.06470835941025,h3,True,qdisc netem 8127: root refcnt 25 limit 1000 delay 50ms loss 5%
+h3,50,5,0,few_large,19,10,10485760,1186.832448001951,70.68064252980561,h3,True,qdisc netem 8127: root refcnt 25 limit 1000 delay 50ms loss 5%
+h3,50,5,0,few_large,20,10,10485760,1224.6213250327855,68.499607417627,h3,True,qdisc netem 8127: root refcnt 25 limit 1000 delay 50ms loss 5%
+h3,50,5,0,few_large,21,10,10485760,1123.1949299690314,74.6852374078228,h3,True,qdisc netem 8127: root refcnt 25 limit 1000 delay 50ms loss 5%
+h3,50,5,0,few_large,22,10,10485760,1222.8120200452395,68.60096124741769,h3,True,qdisc netem 8127: root refcnt 25 limit 1000 delay 50ms loss 5%
+h3,50,5,0,few_large,23,10,10485760,1159.7668059985153,72.33012668247326,h3,True,qdisc netem 8127: root refcnt 25 limit 1000 delay 50ms loss 5%
+h3,50,5,0,few_large,24,10,10485760,1131.0591779765673,74.16595137848562,h3,True,qdisc netem 8127: root refcnt 25 limit 1000 delay 50ms loss 5%
+h3,50,5,0,few_large,25,10,10485760,1211.0546340118162,69.26696586933792,h3,True,qdisc netem 8127: root refcnt 25 limit 1000 delay 50ms loss 5%
+h3,50,5,0,few_large,26,10,10485760,1149.1638539591804,72.99749266476644,h3,True,qdisc netem 8127: root refcnt 25 limit 1000 delay 50ms loss 5%
+h3,50,5,0,few_large,27,10,10485760,1163.6448860517703,72.08907202318761,h3,True,qdisc netem 8127: root refcnt 25 limit 1000 delay 50ms loss 5%
+h3,50,5,0,few_large,28,10,10485760,1151.0517909773625,72.87776332702806,h3,True,qdisc netem 8127: root refcnt 25 limit 1000 delay 50ms loss 5%
+h3,50,5,0,few_large,29,10,10485760,1082.1049200021662,77.52120746279583,h3,True,qdisc netem 8127: root refcnt 25 limit 1000 delay 50ms loss 5%
+h3,50,5,0,few_large,30,10,10485760,1138.200780027546,73.70059964110186,h3,True,qdisc netem 8127: root refcnt 25 limit 1000 delay 50ms loss 5%
+h3,50,5,0,few_large,31,10,10485760,1153.9493189775385,72.69476970992766,h3,True,qdisc netem 8127: root refcnt 25 limit 1000 delay 50ms loss 5%
+h3,50,5,0,few_large,32,10,10485760,1242.8326070075855,67.49587959554397,h3,True,qdisc netem 8127: root refcnt 25 limit 1000 delay 50ms loss 5%
+h3,50,5,0,few_large,33,10,10485760,1215.2774600544944,69.02627816057615,h3,True,qdisc netem 8127: root refcnt 25 limit 1000 delay 50ms loss 5%
+h3,50,5,0,few_large,34,10,10485760,1092.3843810451217,76.79172409966472,h3,True,qdisc netem 8127: root refcnt 25 limit 1000 delay 50ms loss 5%
+h3,50,5,0,few_large,35,10,10485760,1274.6304650208913,65.81207832548166,h3,True,qdisc netem 8127: root refcnt 25 limit 1000 delay 50ms loss 5%
+h3,50,5,0,few_large,36,10,10485760,1152.1718479925767,72.80691690753798,h3,True,qdisc netem 8127: root refcnt 25 limit 1000 delay 50ms loss 5%
+h3,50,5,0,few_large,37,10,10485760,1190.1416669716127,70.48411321775936,h3,True,qdisc netem 8127: root refcnt 25 limit 1000 delay 50ms loss 5%
+h3,50,5,0,few_large,38,10,10485760,1207.382058026269,69.47765990255827,h3,True,qdisc netem 8127: root refcnt 25 limit 1000 delay 50ms loss 5%
+h3,50,5,0,few_large,39,10,10485760,1349.867050012108,62.14395706543661,h3,True,qdisc netem 8127: root refcnt 25 limit 1000 delay 50ms loss 5%
+h3,50,5,0,few_large,40,10,10485760,1126.2409900082275,74.48324181433603,h3,True,qdisc netem 8127: root refcnt 25 limit 1000 delay 50ms loss 5%
