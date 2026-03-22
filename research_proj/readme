@@ -54,7 +54,7 @@ Create a virtual environment:
 python3 -m venv network_env
 source network_env/bin/activate
 pip install httpx[http2] aioquic matplotlib pyyaml
-
+python ./scripts/prepare_assets.py (prepare for many small files and few large files)
 ### Network Namespace setup
 Create isolated client and server environments:
 ```bash
