@@ -1,46 +1,131 @@
 # Network Design Project 
 
-## Overview
-This repository implements a UDP-based file transfer protocol across **6 phases**, progressively adding reliability mechanisms and performance evaluation. Currently, **Phase 1** is complete, which establishes the foundation through basic UDP socket communication and the RDT 1.0 protocol for reliable data transfer over a perfectly reliable channel.
-
 ## Name  email 
 Song Ni  song_ni@student.uml.edu
 
-## Demo Video (Phase 1)
-- **video is available in folder "video"** 
-- **Timestamped outline:**
-  - 00:00 → show the sample1.bmp that I prepare to send
-  - 00:30 → finished Phase 1(a) and 1(b), show result.
-  - 00:50 → Verification: MD5 Hash Integrity Check
+# HTTP/2 vs HTTP/3 Performance under Network Impairments
+
+## Overview
+
+This project evaluates the performance of HTTP/2 and HTTP/3 under controlled network conditions. The goal is to understand when HTTP/3 (QUIC) improves tail latency compared to HTTP/2 (TCP), especially for high-concurrency small-object workloads.
+
+## Research Question
+
+Under what network conditions does HTTP/3 reduce completion time and tail latency compared to HTTP/2?
+
+## Experimental Setup
+
+- **Server**: Caddy (supports HTTP/2 and HTTP/3)
+- **Client**:
+  - HTTP/2: `httpx` with `http2=True`
+  - HTTP/3: `aioquic`
+- **Network Emulation**: Linux `tc netem`
+- **Environment**: Linux namespaces (`ns_client`, `ns_server`)
+
+## Workloads
+
+- **many_small**: 300 small objects (primary workload)
+- **few_large**: 10 objects (~1MB each)
+
+Each run downloads all objects over a single connection/session.
+
+## Metrics
+
+- Completion time (ms)
+- p95 completion time
+
+## Network Conditions
+
+- RTT: {0, 100, 200} ms
+- Packet loss: {0%, 1%, 3%, 5%}
+
+## How to Reproduce-------------------------------------------------------------|
+
+### Environment Setup
+System Requirements
+
+- Linux (Ubuntu recommended)
+- Python 3.10+
+- Root privileges (required for `tc netem` and network namespaces)
 ---
-
-## The project is organized as follows to ensure reproducibility:
----
-## Requirements
-- **Language/runtime:** Python 3.10 
-- **OS tested:** Ubuntu (WSL2) / Linux
-- **Dependencies:** - Only Python standard libraries are used: `socket`, `argparse`, `struct`, `time`. 
-  - No external `pip` installations are required for Phase 1.
-- **built virtual environment** :uv venv network_env
-- **activate environment**: source network_env/bin/activate
-
-### Receiver 
-- `--port <int>`: UDP port to bind (e.g., 9000).
-- `--out <path>`: Output file path to write received bytes.
-
-### Sender
-- `--host <ip/hostname>`: Receiver host IP (use 127.0.0.1 for local tests).
-- `--port <int>`: Receiver port.
-- `--file <path>`: Input file to send.
----
-## Quick Start 
-
-### 1. Start Receiver and sender
-Open a terminal and run the receiver first and waiting, then open another terminal to send files.
+### Install Dependencies
+Create a virtual environment:
 ```bash
-python src/receiver.py --port 9000 --out results/received.bmp
-python src/sender.py --host 127.0.0.1 --port 9000 --file data/sample.bmp
+python3 -m venv network_env
+source network_env/bin/activate
+pip install httpx[http2] aioquic matplotlib pyyaml
 
-### 2. Verification 
-md5sum data/sample.bmp
-md5sum results/received.bmp
+### Network Namespace setup
+Create isolated client and server environments:
+```bash
+sudo ip netns add ns_client
+sudo ip netns add ns_server
+sudo ip link add veth-client type veth peer name veth-server
+sudo ip link set veth-client netns ns_client
+sudo ip link set veth-server netns ns_server
+### assign IP address
+sudo ip netns exec ns_client ip addr add 10.0.0.1/24 dev veth-client
+sudo ip netns exec ns_server ip addr add 10.0.0.2/24 dev veth-server
+### Bring interfaces up
+sudo ip netns exec ns_client ip link set lo up
+sudo ip netns exec ns_server ip link set lo up
+sudo ip netns exec ns_client ip link set veth-client up
+sudo ip netns exec ns_server ip link set veth-server up
+### test connectivity
+sudo ip netns exec ns_client ping -c 3 10.0.0.2
+###  Start server (in ns_server)
+```bash
+sudo ip netns exec ns_server bash
+cd research_project (research_project is the code folder)
+caddy run --config configs/Caddyfile #here you must keep the serve monitoring 
+###  Start client (in ns_client)
+```bash
+sudo ip netns exec ns_client bash
+cd research_project
+source network_env/bin/activate
+###  run experiment (in ns_client)
+python -m scripts.run_experiments
+### Generate plots
+```bash
+python -m scripts.plot_results
+### Output
+1. Raw data: results/raw_results.csv
+2. Figure 1: RTT vs completion time
+2. Figure 2: Loss vs p95 completion time
+### --------------------------------------------------------------------------|
+
+
+### Project Structure
+research_project/
+├── configs/
+│   ├── experiment.yaml
+│   ├── many_small.txt
+│   ├── few_large.txt
+│   └── Caddyfile
+├── src/
+│   ├── client_runner.py
+│   ├── http2_fetch.py
+│   ├── http3_fetch.py
+│   └── netem.py
+├── scripts/
+│   ├── run_experiments.py
+│   ├── plot_results.py
+│   └── prepare_assets.py
+├── results/
+│   ├── raw_results.csv
+│   └── figures/
+├── static/
+│   ├── many_small/
+│   └── few_large/
+└── README.md
+
+### tools
+Python (httpx, aioquic, matplotlib)
+Caddy server
+Linux tc netem
+Linux network namespaces
+
+### notes
+1. Results may vary due to stochastic packet loss.
+2. p95 latency is sensitive to outliers.
+3. the experiment setting is available in ./configs/experiment.yaml, you can change the workload and RTT or Loss mode.
