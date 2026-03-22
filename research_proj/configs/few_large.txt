@@ -1,0 +1,10 @@
+/few_large/obj_000.bin
+/few_large/obj_001.bin
+/few_large/obj_002.bin
+/few_large/obj_003.bin
+/few_large/obj_004.bin
+/few_large/obj_005.bin
+/few_large/obj_006.bin
+/few_large/obj_007.bin
+/few_large/obj_008.bin
+/few_large/obj_009.bin

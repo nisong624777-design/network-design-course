@@ -1,0 +1,16 @@
+{
+    admin off
+    auto_https disable_redirects
+    debug
+}
+
+https://h3.local:8443 {
+    tls internal
+    root * /home/ong_i/network_design_course/research_project/static
+    file_server
+
+    log {
+        output stdout
+        format console
+    }
+}
