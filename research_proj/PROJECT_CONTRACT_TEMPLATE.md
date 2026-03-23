@@ -200,8 +200,8 @@ List the **exact** outputs you promise to deliver.
 |---|---|---|---|---|
 | Figure 1 | RTT | Median completion time | many_small workload, loss=0 | fig_rtt_many_small.png |
 | Figure 2 | Packet loss | p95 completion time | many_small workload, RTT=50ms | fig_loss_many_small.png |
-| Figure 3 (optional) | RTT | Median completion time | few_large workload | fig_rtt_few_large.png |
-| Figure 4 (optional) | Packet loss | p95 completion time | few_large workload | fig_loss_few_large.png |
+| Figure 3 | RTT | Median completion time | few_large workload | fig_rtt_few_large.png |
+| Figure 4 | Packet loss | p95 completion time | few_large workload | fig_loss_few_large.png |
 
 ---
 
