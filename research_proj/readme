@@ -120,7 +120,10 @@ research_project/
 └── README.md
 
 ### tools
-Python (httpx, aioquic, matplotlib)
+Python (httpx (HTTP/2), aioquic (HTTP/3), matplotlib)
+#HTTP/2 and HTTP/3 use different underlying transports. 
+#HTTP/2 runs on TCP+TLS, while HTTP/3 runs on QUIC over UDP, 
+#connection establishment, stream management, retransmission, and congestion control are all different.
 Caddy server  #Caddy serves the files over HTTPS;
 Linux tc netem  #traffic control and network emulator injects RTT, loss, and jitter
 Linux network namespaces
