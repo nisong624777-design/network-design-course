@@ -101,12 +101,12 @@ research_project/
 │   ├── experiment.yaml
 │   ├── many_small.txt
 │   ├── few_large.txt
-│   └── Caddyfile
+│   └── Caddyfile   #it is convenient to support HTTPS, HTTP/2, and HTTP/3 in the same server, and it is straightforward to configure for static file serving.
 ├── src/
 │   ├── client_runner.py
-│   ├── http2_fetch.py
-│   ├── http3_fetch.py    #the client fetches the objects using either HTTP/2 or HTTP/3
-│   └── netem.py
+│   ├── http2_fetch.py    #the client fetches the objects using HTTP/2
+│   ├── http3_fetch.py    #the client fetches the objects using HTTP/3
+│   └── netem.py          # it can inject delay, loss, and jitter on Linux, which build a controlled network environment. apply_netem(), clear_netem(), and capture_qdisc() implement this layer.
 ├── scripts/    #the scripts sweep the experiment matrix and write results into CSV files.
 │   ├── run_experiments.py
 │   ├── plot_results.py
