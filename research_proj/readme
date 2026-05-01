@@ -124,7 +124,7 @@ First, prepare_assets.py generates the object sets.
 Second, server_control.py and netem.py manage the server and inject network impairments.
 Third, http2_fetch.py and http3_fetch.py implement the protocol-specific clients.
 Fourth, client_runner.py and run_experiments.py handle orchestration and batch execution.
-Fifth, metrics.py aggregates the results into summary statistics
+Fifth, plot_results.py generate the final figure.
 #-----------------------------------------------------------------------------------------------------------
 
 
