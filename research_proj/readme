@@ -107,10 +107,10 @@ research_project/
 │   ├── http2_fetch.py
 │   ├── http3_fetch.py    #the client fetches the objects using either HTTP/2 or HTTP/3
 │   └── netem.py
-├── scripts/
+├── scripts/    #the scripts sweep the experiment matrix and write results into CSV files.
 │   ├── run_experiments.py
 │   ├── plot_results.py
-│   └── prepare_assets.py
+│   └── prepare_assets.py #generate many small files
 ├── results/
 │   ├── raw_results.csv
 │   └── figures/
