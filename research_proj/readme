@@ -118,6 +118,15 @@ research_project/
 │   ├── many_small/
 │   └── few_large/
 └── README.md
+#----------note-----------
+The code can be described in five layers.
+First, prepare_assets.py generates the object sets.
+Second, server_control.py and netem.py manage the server and inject network impairments.
+Third, http2_fetch.py and http3_fetch.py implement the protocol-specific clients.
+Fourth, client_runner.py and run_experiments.py handle orchestration and batch execution.
+Fifth, metrics.py aggregates the results into summary statistics
+#-----------------------------------------------------------------------------------------------------------
+
 
 ### tools
 Python (httpx (HTTP/2), aioquic (HTTP/3), matplotlib)
