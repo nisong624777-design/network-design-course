@@ -81,8 +81,9 @@ caddy run --config configs/Caddyfile #here you must keep the serve monitoring
 ###  Start client (in ns_client)
 ```bash
 sudo ip netns exec ns_client bash
-cd research_project
 source network_env/bin/activate
+echo "10.0.0.2 h3.local" >> /etc/hosts
+cd research_project
 ###  run experiment (in ns_client)
 python -m scripts.run_experiments
 ### Generate plots
