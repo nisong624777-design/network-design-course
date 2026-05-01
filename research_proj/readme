@@ -105,7 +105,7 @@ research_project/
 ├── src/
 │   ├── client_runner.py
 │   ├── http2_fetch.py
-│   ├── http3_fetch.py
+│   ├── http3_fetch.py    #the client fetches the objects using either HTTP/2 or HTTP/3
 │   └── netem.py
 ├── scripts/
 │   ├── run_experiments.py
@@ -121,8 +121,8 @@ research_project/
 
 ### tools
 Python (httpx, aioquic, matplotlib)
-Caddy server
-Linux tc netem
+Caddy server  #Caddy serves the files over HTTPS;
+Linux tc netem  #traffic control and network emulator injects RTT, loss, and jitter
 Linux network namespaces
 
 ### notes
